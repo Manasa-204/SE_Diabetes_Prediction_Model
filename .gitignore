@@ -1,0 +1,38 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.env
+.venv/
+venv/
+**/venv/
+
+# === FastAPI / Backend ===
+*.db
+*.sqlite3
+*.log
+instance/
+.env*
+
+# === Frontend (React / Lovable) ===
+node_modules/
+build/
+dist/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Machine Learning ===
+*.pkl
+*.joblib
+*.npy
+*.npz
+.ipynb_checkpoints/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
